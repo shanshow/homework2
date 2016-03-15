@@ -1,0 +1,316 @@
+html{
+
+  background-color: #fe7701;
+}
+
+body{
+  height: 1110px;
+  width: 1190px;
+  margin: 0px 150px;
+}
+/*標題*/
+#logo{
+
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+
+.box{
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: -5px 5px #a54d05;
+  display: inline-block;
+}
+/*標題用*/
+.Link{
+  margin-left: 491px;
+  display: inline-block;
+}
+.circle_link{
+  margin: 30px 10px 0px 0px;
+}
+
+#nav_box{
+  margin-top: 18px;
+  height: 50px;
+  width: 960px;
+}
+
+/*風面照片*/
+#pictureMain
+{
+  margin-top: 19px;
+  width: 960px;
+  height: 500px;
+}
+
+/* service表格*/
+.services_box
+{
+margin-top: 20px;
+position:absolute;
+}
+.services_icon{
+  display: inline-block;
+  margin-left:51px;
+  margin-right: 10px;
+  width: 40px;
+  position: absolute;
+}
+#icon1{
+  margin-top: 15px;
+}
+#icon2{
+  margin-top: 55px;
+}
+#icon3{
+  margin-top: 95px;
+}
+#titleBoxServices{
+  width:300px;
+  height:50px;
+}
+#subBox1{
+  margin-top: 20px;
+  margin-left: 101px;
+  width: 199px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+}
+#subBox2{
+  margin-top: 60px;
+  margin-left: 101px;
+  width: 199px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+}
+#subBox3{
+  margin-top: 100px;
+  margin-left: 101px;
+  width: 199px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+}
+/* portfolio表格*/
+.portfolio_box
+{
+margin-top: 20px;
+margin-left: 330px;
+position:absolute;
+}
+#titleBoxPortfolio{
+  width:300px;
+  height:50px;
+}
+.small_pic{
+  position: absolute;
+}
+#pic1{
+  margin-top: 20px;
+}
+#pic2{
+  margin-top: 20px;
+  margin-left: 105px;
+}
+#pic3{
+  margin-top: 20px;
+  margin-left: 210px;
+}
+#pic4{
+  margin-top: 80px;
+}
+#pic5{
+  margin-top: 80px;
+  margin-left: 105px;
+}
+#pic6{
+  margin-top: 80px;
+  margin-left: 210px;
+}
+
+/* testimonilas表格*/
+
+.testimonilas_box
+{
+  margin-top: 20px;
+  margin-left: 660px;
+position:absolute;
+}
+#titleBoxTestimonilas{
+  width:300px;
+  height:50px;
+}
+#paragraph_box{
+  width:300px;
+  height:136px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+/*Out Blog 表格*/
+
+#OurBlog_box{
+  width:630px;
+  display:inline-block;
+  margin-top: 266px;
+  margin-bottom: 20px;
+  position: absolute;
+}
+#titleBox4{
+  width: 630px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#blogBox1{
+  width: 630px;
+  height: 80px;
+  position: absolute;
+}
+#blogBox2{
+  width: 630px;
+  height: 80px;
+  position: absolute;
+  margin-top: 90px;
+}
+#blogBox3{
+  width: 630px;
+  height: 80px;
+  position: absolute;
+  margin-top: 180px;
+}
+#thumbnail{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Latest Tweets 表格*/
+
+#LatestTweets_box{
+  width:300px;
+  margin-top: 266px;
+  margin-left: 660px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: absolute;
+}
+#titleBox5{
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#tweetBox{
+  width: 300px;
+  height: 260px;
+  position: absolute;
+}
+#paragraphTweet{
+  margin-top: 4px;
+  margin-left: 15px;
+  position: absolute;
+}
+
+/* footer區域*/
+footer{
+  width: 1260px;
+  height: 50px;
+  background-color: #404040;
+  margin-top: 616px;
+  margin-left: -150px;
+  position: absolute;
+}
+#footerLeft{
+  margin-top: 16px;
+  margin-left: 180px;
+  margin-bottom: 16px;
+  float: left;
+}
+#footerRight{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 295px;
+  float: right;
+}
+
+/* 分別字形 */
+.title{
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color:#fe7701;
+  margin-top: 16px;
+  margin-left: 30px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.services_title{
+  font-family: Arial;
+  font-size: 12px;
+  color:#404040;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+.paragraphTestimonials{
+  font-size: 12px;
+  font-family: Arial;
+  color:#404040;
+  margin-top: 13px;
+  margin-left: 15px;
+  line-height: 1.5em;
+}
+.blog_title{
+  font-size: 16px;
+  font-family: Arial;
+  color:#404040;
+  margin-top: 14px;
+  display: inline-block;
+  position: absolute;
+}
+.paragraphBlog{
+  font-size: 10px;
+  font-family: Arial;
+  font-style: italic;
+  color:#a54e03;
+  margin-top: 45px;
+  display: inline-block;
+  position: absolute;
+}
+.tweets_email_address{
+  font-size: 14px;
+  font-family: Arial;
+  color: #a54e03;
+  display: inline-block;
+}
+.tweets_text{
+  font-size: 14px;
+  font-family: Arial;
+  color: #404040;
+  display: inline-block;
+}
+.tweets_link{
+  font-size: 11px;
+  font-family: Arial;
+  font-style: italic;
+  color: #a54e03;
+  display: inline-block;
+  padding-top: 11px;
+}
+#line{
+  width: 270px;
+  height: 1px;
+  background-color: #a54e03;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.footer{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;;
+  color: #fe7701;
+  display: inline-block;
+}
